@@ -1,6 +1,6 @@
 {
   "name": "dfy",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "大房鸭前端解决方案",
   "main": "index.js",
   "scripts": {

@@ -83,7 +83,7 @@ npm install dfy
 
 ```javascript
 	$.ajax({
-		url: 'http://127.0.0.1:8010/', //指定百度网址
+		url: 'http://127.0.0.1:8010/', //请求本地地址->转到请求百度地址
 		type: 'GET',
 		data: {
 			// name:'wiwi'
@@ -97,4 +97,31 @@ npm install dfy
 	})
 ```
 
+
+
+#### ajax本地域名配置
+
+在本地指定请求哪个数据接口或网页html内容，类似命令行操作
+
+`dfy server start -d http://www.dafangya.com`
+
+```javascript
+	$.ajax({
+		url: 'http://127.0.0.1:8010/',
+		type:'get',
+		accepts: {
+    		domain: "http://www.dafangya.com" //类似 dfy server start -d [域名] ;
+		},
+		dataType: "domain",
+		data:{
+			naem: 'wiwi'
+		},
+		success: function (data) {
+			console.log(data)
+		},
+		error: function (data) {
+			console.log(data)
+		}
+	})
+```
 
