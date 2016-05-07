@@ -1,0 +1,21 @@
+{
+  "name": "dfy",
+  "version": "1.0.3",
+  "description": "大房鸭前端解决方案",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dfy": "./bin/dfy.js"
+  },
+  "author": "wiwi",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "express": "^4.13.4",
+    "fs-extra": "^0.30.0"
+  }
+}
