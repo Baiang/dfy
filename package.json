@@ -1,6 +1,6 @@
 {
   "name": "dfy",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "大房鸭前端解决方案",
   "main": "index.js",
   "scripts": {
@@ -9,13 +9,54 @@
   "bin": {
     "dfy": "./bin/dfy.js"
   },
-  "author": "wiwi",
+  "author": {
+    "name": "wiwi"
+  },
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.3.5",
+    "body-parser": "^1.15.0",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "express": "^4.13.4",
-    "fs-extra": "^0.30.0"
-  }
+    "fs-extra": "^0.30.0",
+    "superagent": "^1.8.3"
+  },
+  "_shasum": "1c17510797c19fe01ccb16299fe8caafd7e84f97",
+  "_from": "dfy@*",
+  "_npmVersion": "2.15.1",
+  "_nodeVersion": "4.4.3",
+  "_npmUser": {
+    "name": "baiang",
+    "email": "973366510@qq.com"
+  },
+  "dist": {
+    "shasum": "1c17510797c19fe01ccb16299fe8caafd7e84f97",
+    "tarball": "https://registry.npmjs.org/dfy/-/dfy-1.0.5.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "baiang",
+      "email": "973366510@qq.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/dfy-1.0.5.tgz_1462517778573_0.5548914805985987"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/dfy/-/dfy-1.0.5.tgz",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baiang/dfy.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/Baiang/dfy/issues"
+  },
+  "homepage": "https://github.com/Baiang/dfy#readme",
+  "_id": "dfy@1.0.5"
 }
