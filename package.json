@@ -1,6 +1,6 @@
 {
   "name": "dfy",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "大房鸭前端解决方案",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "fs-extra": "^0.30.0",
     "superagent": "^1.8.3"
   },
-  "_shasum": "1c17510797c19fe01ccb16299fe8caafd7e84f97",
+  "_shasum": "bfefd2986c586648e1c124574ca4ef69e082e776",
   "_from": "dfy@*",
   "_npmVersion": "2.15.1",
   "_nodeVersion": "4.4.3",
@@ -58,5 +58,7 @@
     "url": "https://github.com/Baiang/dfy/issues"
   },
   "homepage": "https://github.com/Baiang/dfy#readme",
-  "_id": "dfy@1.0.5"
+  "_id": "dfy@1.0.7",
+  "readme": "dfy\n==========================\n\n\n大房鸭前端工具，为解决开发中出现问题而诞生。\n\n## 安装插件\n\n全局安装\n\n```bash\nnpm install -g dfy\n```\n\n或者本地安装到项目所在目录。\n\n```bash\nnpm install dfy\n```\n\n##例子\n\n执行`dfy -h`命令，查看帮助文档，有`init`、`server`命令\n\n \n\n    Usage: dfy [options]\n\n    Commands:\n\n    init [options]              scaffold with specifed template.\n    server [options] [options]  launch a server\n    \n    Options:\n    \n    -h, --help     output usage information\n    -V, --version  output the version number\n\n\n\n###创建项目init [options]\n\n创建一个h5项目目录，只需执行`dfy init h5`\n\n\n\n###启动跨域服务器server [options][options]\n\n`No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. `\n\n在本地环境下ajax请求测试服务器数据，后端拒绝的情况下，只需执行`dfy server start`默认端口8010，本地请求地址改成`http://127.0.0.1:8010/`\n\n需要改动端口需要执行`dfy server start -p 8020`\n\n\n\n查看help命令，执行`dfy server -h`\n\n```\n\n  Usage: server [options] [options]\n\n  launch a server\n\n  Options:\n\n    -h, --help                  output usage information\n    -p, --port <int>            server listen port\n    -d, --domain <domain name>  domain name\n```\n\n* -p, --port <int>：指定端口，(默认端口8010)\n* -d, --domain <domain name>：指定域名，(默认域名www.dafangya.com.cn/h5/)\n\n\n\n\n#### AJAX请求，支持GET、POST请求方式\n\n`dfy server start -d www.baidu.com`\n\n![20160507105740](http://o6sjqwtpl.bkt.clouddn.com/20160507105740.png)\n\n```javascript\n\t$.ajax({\n\t\turl: 'http://127.0.0.1:8010/', //指定百度网址\n\t\ttype: 'GET',\n\t\tdata: {\n\t\t\t// name:'wiwi'\n\t\t},\n\t\tsuccess: function (data) {//请求数据接口进入success回调函数\n\t\t\tconsole.log(data)\n\t\t},\n\t\terror: function(data){//请求网页html内容进入error回调函数\n\t\t\tconsole.log(data.responseText)\n\t\t}\n\t})\n```\n\n\n",
+  "readmeFilename": "README.md"
 }

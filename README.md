@@ -44,13 +44,11 @@ npm install dfy
 
 
 
-###启动跨域服务器server [options][options]
+###启动服务器代理server [options][options]
 
-`No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access. `
+> 最近在做大房鸭H5v2.0项目开发，由于页面使用ajax请求进行视图渲染及业务处理，而跨域问题，只能读取本地静态json文件进行模拟。导致不同的业务逻辑处理返回的数据一致，无法清晰掌握当前的处理的信息状态，并且拉长项目开发时间，就此诞生了"dfy前端工具"。
 
-在本地环境下ajax请求测试服务器数据，后端拒绝的情况下，只需执行`dfy server start`默认端口8010，本地请求地址改成`http://127.0.0.1:8010/`
-
-需要改动端口需要执行`dfy server start -p 8020`
+在数据提供方没有提供对JSONP协议或者 window.name协议的支持，也没有对其它域开放访问权限时，可以通过执行`dfy server start`来进行"数据交互"、**"DOM**元素处理"。
 
 
 
@@ -70,14 +68,16 @@ npm install dfy
 ```
 
 * -p, --port <int>：指定端口，(默认端口8010)
-* -d, --domain <domain name>：指定域名，(默认域名www.dafangya.com.cn/h5/)
+* -d, --domain <domain name>：指定域名，(默认域名www.dafangya.com.cn)
 
 
 
 
 #### AJAX请求，支持GET、POST请求方式
 
-`dfy server start -d www.baidu.com`
+一般环境下，本地域下的页面需要请求baidu.com下的资源文件getUsers.php时，直接发送一个指向 baidu.com/getUsers.php的Ajax请求肯定是会被浏览器阻止。
+
+启动`dfy server start -d www.baidu.com`，会自动映射服务资源的模型数据对象，与本地无缝数据交换。
 
 ![20160507105740](http://o6sjqwtpl.bkt.clouddn.com/20160507105740.png)
 
@@ -101,9 +101,7 @@ npm install dfy
 
 #### ajax本地域名配置
 
-在本地指定请求哪个数据接口或网页html内容，类似命令行操作
-
-`dfy server start -d http://www.dafangya.com`
+可以在本地ajax指定请求域名，无需命令行操作
 
 ```javascript
 	$.ajax({
