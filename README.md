@@ -79,7 +79,7 @@ npm install dfy
 
 启动`dfy server start -d www.baidu.com`，会自动映射服务资源的模型数据对象，与本地无缝数据交换。
 
-![20160507105740](http://o6sjqwtpl.bkt.clouddn.com/20160507105740.png)
+![20160507105740](http://o6sjqwtpl.bkt.clouddn.com/20160509101452.png)
 
 ```javascript
 	$.ajax({
