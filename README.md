@@ -127,4 +127,4 @@ npm install dfy
 
 #### 提供外网测试
 
-外网测试域名http://139.196.31.129:8010，默认请求www.dafangya.com域名
+外网测试域名139.196.31.129:8010，默认请求www.dafangya.com域名
