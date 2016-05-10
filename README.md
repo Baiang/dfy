@@ -1,6 +1,7 @@
 dfy
 ==========================
 
+[![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)]()[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg?maxAge=2592000)]()
 
 大房鸭前端工具，为解决开发中出现问题而诞生。
 
@@ -128,3 +129,11 @@ npm install dfy
 #### 提供外网测试
 
 外网测试域名139.196.31.129:8010，默认请求www.dafangya.com域名
+
+
+
+#### [@flamingtop](https://github.com/flamingtop) 贡献2种方法：
+
+1. 在host文件强制目标域名指向测试机ip，或者
+2. 关掉浏览器same origin policy，如 chromium-browser -user-data-dir --disable-web-security
+
