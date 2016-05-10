@@ -1,7 +1,7 @@
 dfy
 ==========================
 
-[![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)]()[![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg?maxAge=2592000)]()
+[![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)]() [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg?maxAge=2592000)]()
 
 大房鸭前端工具，为解决开发中出现问题而诞生。
 
