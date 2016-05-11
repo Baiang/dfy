@@ -1,5 +1,4 @@
-dfy
-==========================
+# dfy
 
 [![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)]() [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg?maxAge=2592000)]()
 
