@@ -139,9 +139,3 @@ npm install dfy
 2. 关掉浏览器same origin policy，如 chromium-browser -user-data-dir --disable-web-security
 
 
-
-
-#### 交流讨论
-
-插件发布到npm社区后，npm社区下载数据及测试服务器日志显示比较活跃，在这里感谢大家的支持及建议，还有提出的bug问题，有兴趣的话，可以加入官方QQ讨论群：301232819
-
