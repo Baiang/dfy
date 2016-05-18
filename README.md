@@ -135,7 +135,7 @@ npm install dfy
 
 #### [@flamingtop](https://github.com/flamingtop) 贡献2种方法：
 
-1. 在host文件强制目标域名指向测试机ip，或者
+1. 在host文件强制目标域名指向测试机ip
 2. 关掉浏览器same origin policy，如 chromium-browser -user-data-dir --disable-web-security
 
 
