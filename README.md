@@ -38,13 +38,13 @@ npm install dfy
 
 
 
-###创建项目init [options]
+###创建项目 dfy init [options]
 
 创建一个h5项目目录，只需执行`dfy init h5`
 
 
 
-###启动代理服务器server [options][options]
+###启动代理服务器 dfy server [options][url]
 
 > 最近在做大房鸭H5v2.0项目开发，由于页面大量使用ajax请求进行视图渲染及业务处理，而跨域问题，只能采取请求本地静态json文件进行模拟。导致不同的业务逻辑处理返回的数据一致，无法清晰掌握当前的处理的信息状态，并且拉长项目开发时间，就此诞生了"dfy前端工具"。
 
