@@ -1,6 +1,6 @@
 # dfy
 
-[![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)]() [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg?maxAge=2592000)]()
+[![npm](https://img.shields.io/npm/v/npm.svg?maxAge=2592000)]() [![Github Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg?maxAge=2592000)]() [![Greenkeeper badge](https://badges.greenkeeper.io/Baiang/dfy.svg)](https://greenkeeper.io/)
 
 dfy命令行工具，为解决大房鸭前端开发中出现的流程部署繁琐及接口调试困难而诞生。 
 
